@@ -6,6 +6,7 @@ services:
       MYSQL_DATABASE: dockersample
       MYSQL_USER: user
       MYSQL_PASSWORD: 123
+      MYSQL_RANDOM_ROOT_PASSWORD: 'yes'
   app:
     image: wahyuuk/sample-docker
     depends_on: 
